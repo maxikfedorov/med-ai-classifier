@@ -79,6 +79,7 @@ def select_dataset():
 def run_inference(dataset_name):
     ensemble = EnsembleModel(dataset_name)
     inference_dir = f'../data/processed_data/{dataset_name}/!user'
+ 
     
     if not os.path.exists(inference_dir):
         return {"error": "Директория с данными не найдена"}, 404
@@ -136,6 +137,7 @@ def main():
     ensemble = EnsembleModel(dataset_name)
     
     inference_dir = f'../data/processed_data/{dataset_name}/!user'
+        
     image_files = [f for f in os.listdir(inference_dir) if f.endswith(('.png', '.jpg', '.jpeg'))]
     
     print(f"\nНайдено {len(image_files)} изображений для инференса")

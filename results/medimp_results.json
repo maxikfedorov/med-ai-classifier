@@ -1,182 +1,806 @@
 {
-    "accuracy": "86.36%",
-    "auc_roc": "0.9667",
+    "accuracy": "89.00%",
+    "auc_roc": "0.9600",
     "results": [
         {
             "file_number": 1,
+            "file_name": "1.2.643.5.1.13.13.12.2.77.8252.00010109110411121210141106090906.jpg",
+            "prediction": 1,
+            "confidence": 0.9765242338180542,
+            "true_value": 1,
+            "is_correct": true
+        },
+        {
+            "file_number": 2,
+            "file_name": "1.2.643.5.1.13.13.12.2.77.8252.00030810061308120412000206010707.jpg",
+            "prediction": 1,
+            "confidence": 0.9700257778167725,
+            "true_value": 1,
+            "is_correct": true
+        },
+        {
+            "file_number": 3,
+            "file_name": "1.2.643.5.1.13.13.12.2.77.8252.00041307131111050000020609000201.jpg",
+            "prediction": 0,
+            "confidence": 0.0390704907476902,
+            "true_value": 0,
+            "is_correct": true
+        },
+        {
+            "file_number": 4,
+            "file_name": "1.2.643.5.1.13.13.12.2.77.8252.00070901131313120711010104071408.jpg",
+            "prediction": 1,
+            "confidence": 0.6924773454666138,
+            "true_value": 1,
+            "is_correct": true
+        },
+        {
+            "file_number": 5,
+            "file_name": "1.2.643.5.1.13.13.12.2.77.8252.00090704101210150307001202100502.jpg",
+            "prediction": 0,
+            "confidence": 0.00772269768640399,
+            "true_value": 0,
+            "is_correct": true
+        },
+        {
+            "file_number": 6,
+            "file_name": "1.2.643.5.1.13.13.12.2.77.8252.00091012030604080908011504130914.jpg",
+            "prediction": 1,
+            "confidence": 0.8966158032417297,
+            "true_value": 1,
+            "is_correct": true
+        },
+        {
+            "file_number": 7,
             "file_name": "1.2.643.5.1.13.13.12.2.77.8252.01010112130714071515061411140310.jpg",
             "prediction": 0,
             "confidence": 0.10562508553266525,
             "true_value": 0,
-            "is_correct": "верно"
+            "is_correct": true
         },
         {
-            "file_number": 2,
+            "file_number": 8,
+            "file_name": "1.2.643.5.1.13.13.12.2.77.8252.01030300031211150300020313011407.jpg",
+            "prediction": 1,
+            "confidence": 0.5615443587303162,
+            "true_value": 1,
+            "is_correct": true
+        },
+        {
+            "file_number": 9,
+            "file_name": "1.2.643.5.1.13.13.12.2.77.8252.01071005121112060602020907061403.jpg",
+            "prediction": 0,
+            "confidence": 0.0999126136302948,
+            "true_value": 0,
+            "is_correct": true
+        },
+        {
+            "file_number": 10,
             "file_name": "1.2.643.5.1.13.13.12.2.77.8252.01090805031312050810091005000312.jpg",
             "prediction": 1,
             "confidence": 0.899349570274353,
             "true_value": 1,
-            "is_correct": "верно"
+            "is_correct": true
         },
         {
-            "file_number": 3,
+            "file_number": 11,
+            "file_name": "1.2.643.5.1.13.13.12.2.77.8252.01100707070606050409090811031302.jpg",
+            "prediction": 0,
+            "confidence": 0.29533740878105164,
+            "true_value": 0,
+            "is_correct": true
+        },
+        {
+            "file_number": 12,
+            "file_name": "1.2.643.5.1.13.13.12.2.77.8252.01100805140712011411141215150513.jpg",
+            "prediction": 0,
+            "confidence": 0.043074414134025574,
+            "true_value": 0,
+            "is_correct": true
+        },
+        {
+            "file_number": 13,
+            "file_name": "1.2.643.5.1.13.13.12.2.77.8252.01120302010807140511120306150200.jpg",
+            "prediction": 1,
+            "confidence": 0.9826662540435791,
+            "true_value": 1,
+            "is_correct": true
+        },
+        {
+            "file_number": 14,
+            "file_name": "1.2.643.5.1.13.13.12.2.77.8252.02000904070210070912011508101109.jpg",
+            "prediction": 1,
+            "confidence": 0.7863359451293945,
+            "true_value": 1,
+            "is_correct": true
+        },
+        {
+            "file_number": 15,
             "file_name": "1.2.643.5.1.13.13.12.2.77.8252.02030300040403000604150806150411.jpg",
             "prediction": 0,
             "confidence": 0.05105723813176155,
             "true_value": 0,
-            "is_correct": "верно"
+            "is_correct": true
         },
         {
-            "file_number": 4,
+            "file_number": 16,
+            "file_name": "1.2.643.5.1.13.13.12.2.77.8252.02031303011110090714040115040602.jpg",
+            "prediction": 0,
+            "confidence": 0.044818103313446045,
+            "true_value": 0,
+            "is_correct": true
+        },
+        {
+            "file_number": 17,
+            "file_name": "1.2.643.5.1.13.13.12.2.77.8252.02041508041303110107051400070209.jpg",
+            "prediction": 0,
+            "confidence": 0.48893100023269653,
+            "true_value": 1,
+            "is_correct": false
+        },
+        {
+            "file_number": 18,
             "file_name": "1.2.643.5.1.13.13.12.2.77.8252.02070701120206130703020815110105.jpg",
             "prediction": 1,
             "confidence": 0.9044649600982666,
             "true_value": 1,
-            "is_correct": "верно"
+            "is_correct": true
         },
         {
-            "file_number": 5,
+            "file_number": 19,
+            "file_name": "1.2.643.5.1.13.13.12.2.77.8252.02150808081002100310060406120302.jpg",
+            "prediction": 1,
+            "confidence": 0.6088430881500244,
+            "true_value": 0,
+            "is_correct": false
+        },
+        {
+            "file_number": 20,
+            "file_name": "1.2.643.5.1.13.13.12.2.77.8252.03040103080404150212011301130803.jpg",
+            "prediction": 0,
+            "confidence": 0.011206937953829765,
+            "true_value": 0,
+            "is_correct": true
+        },
+        {
+            "file_number": 21,
             "file_name": "1.2.643.5.1.13.13.12.2.77.8252.03041012151314050706030609111105.jpg",
             "prediction": 0,
             "confidence": 0.01909085549414158,
             "true_value": 0,
-            "is_correct": "верно"
+            "is_correct": true
         },
         {
-            "file_number": 6,
+            "file_number": 22,
+            "file_name": "1.2.643.5.1.13.13.12.2.77.8252.03051311061005030203030500120308.jpg",
+            "prediction": 0,
+            "confidence": 0.015407102182507515,
+            "true_value": 0,
+            "is_correct": true
+        },
+        {
+            "file_number": 23,
+            "file_name": "1.2.643.5.1.13.13.12.2.77.8252.03110010080601080302001114071401.jpg",
+            "prediction": 0,
+            "confidence": 0.1584714949131012,
+            "true_value": 0,
+            "is_correct": true
+        },
+        {
+            "file_number": 24,
+            "file_name": "1.2.643.5.1.13.13.12.2.77.8252.04001502070504081312150604130112.jpg",
+            "prediction": 1,
+            "confidence": 0.9925214052200317,
+            "true_value": 1,
+            "is_correct": true
+        },
+        {
+            "file_number": 25,
+            "file_name": "1.2.643.5.1.13.13.12.2.77.8252.04010613100301031010091301010305.jpg",
+            "prediction": 1,
+            "confidence": 0.8565937280654907,
+            "true_value": 1,
+            "is_correct": true
+        },
+        {
+            "file_number": 26,
             "file_name": "1.2.643.5.1.13.13.12.2.77.8252.04031104121012040002100601021101.jpg",
             "prediction": 0,
             "confidence": 0.27476197481155396,
             "true_value": 0,
-            "is_correct": "верно"
+            "is_correct": true
         },
         {
-            "file_number": 7,
+            "file_number": 27,
+            "file_name": "1.2.643.5.1.13.13.12.2.77.8252.04040709040101020211151110070409.jpg",
+            "prediction": 1,
+            "confidence": 0.9624879360198975,
+            "true_value": 1,
+            "is_correct": true
+        },
+        {
+            "file_number": 28,
             "file_name": "1.2.643.5.1.13.13.12.2.77.8252.04060902000314020404090506140410.jpg",
             "prediction": 1,
             "confidence": 0.528288722038269,
             "true_value": 1,
-            "is_correct": "верно"
+            "is_correct": true
         },
         {
-            "file_number": 8,
+            "file_number": 29,
+            "file_name": "1.2.643.5.1.13.13.12.2.77.8252.04071208011308090102150006100908.jpg",
+            "prediction": 1,
+            "confidence": 0.9906492233276367,
+            "true_value": 1,
+            "is_correct": true
+        },
+        {
+            "file_number": 30,
+            "file_name": "1.2.643.5.1.13.13.12.2.77.8252.04100811080601140405011009100908.jpg",
+            "prediction": 0,
+            "confidence": 0.0296580009162426,
+            "true_value": 0,
+            "is_correct": true
+        },
+        {
+            "file_number": 31,
+            "file_name": "1.2.643.5.1.13.13.12.2.77.8252.04130615081012150512110511070107.jpg",
+            "prediction": 1,
+            "confidence": 0.8571920394897461,
+            "true_value": 1,
+            "is_correct": true
+        },
+        {
+            "file_number": 32,
+            "file_name": "1.2.643.5.1.13.13.12.2.77.8252.05010011140608050401051112081500.jpg",
+            "prediction": 1,
+            "confidence": 0.9681458473205566,
+            "true_value": 1,
+            "is_correct": true
+        },
+        {
+            "file_number": 33,
             "file_name": "1.2.643.5.1.13.13.12.2.77.8252.05021402090507051110101310141405.jpg",
             "prediction": 0,
             "confidence": 0.18834663927555084,
             "true_value": 1,
-            "is_correct": "неверно"
+            "is_correct": false
         },
         {
-            "file_number": 9,
+            "file_number": 34,
+            "file_name": "1.2.643.5.1.13.13.12.2.77.8252.05080402101215020701121506120008.jpg",
+            "prediction": 1,
+            "confidence": 0.98500657081604,
+            "true_value": 1,
+            "is_correct": true
+        },
+        {
+            "file_number": 35,
+            "file_name": "1.2.643.5.1.13.13.12.2.77.8252.05101309110914061014080404080303.jpg",
+            "prediction": 1,
+            "confidence": 0.9661625623703003,
+            "true_value": 1,
+            "is_correct": true
+        },
+        {
+            "file_number": 36,
+            "file_name": "1.2.643.5.1.13.13.12.2.77.8252.05120804121102071506040104041311.jpg",
+            "prediction": 1,
+            "confidence": 0.8515381217002869,
+            "true_value": 1,
+            "is_correct": true
+        },
+        {
+            "file_number": 37,
+            "file_name": "1.2.643.5.1.13.13.12.2.77.8252.05151408121011030203010708151408.jpg",
+            "prediction": 1,
+            "confidence": 0.9987976551055908,
+            "true_value": 1,
+            "is_correct": true
+        },
+        {
+            "file_number": 38,
             "file_name": "1.2.643.5.1.13.13.12.2.77.8252.06020112001205120109031004041012.jpg",
             "prediction": 1,
             "confidence": 0.9958344101905823,
             "true_value": 1,
-            "is_correct": "верно"
+            "is_correct": true
         },
         {
-            "file_number": 10,
+            "file_number": 39,
+            "file_name": "1.2.643.5.1.13.13.12.2.77.8252.06080414050108120105101404131402.jpg",
+            "prediction": 1,
+            "confidence": 0.981149435043335,
+            "true_value": 1,
+            "is_correct": true
+        },
+        {
+            "file_number": 40,
+            "file_name": "1.2.643.5.1.13.13.12.2.77.8252.06110004111304120812090710051213.jpg",
+            "prediction": 0,
+            "confidence": 0.016020219773054123,
+            "true_value": 0,
+            "is_correct": true
+        },
+        {
+            "file_number": 41,
+            "file_name": "1.2.643.5.1.13.13.12.2.77.8252.06111315101408080612101108050206.jpg",
+            "prediction": 1,
+            "confidence": 0.8708361387252808,
+            "true_value": 1,
+            "is_correct": true
+        },
+        {
+            "file_number": 42,
+            "file_name": "1.2.643.5.1.13.13.12.2.77.8252.06150212031214021309000408040801.jpg",
+            "prediction": 0,
+            "confidence": 0.011081401258707047,
+            "true_value": 0,
+            "is_correct": true
+        },
+        {
+            "file_number": 43,
             "file_name": "1.2.643.5.1.13.13.12.2.77.8252.07011510040500100901030209090115.jpg",
             "prediction": 1,
             "confidence": 0.6485761404037476,
             "true_value": 0,
-            "is_correct": "неверно"
+            "is_correct": false
         },
         {
-            "file_number": 11,
+            "file_number": 44,
+            "file_name": "1.2.643.5.1.13.13.12.2.77.8252.07080602071512050905011513150702.jpg",
+            "prediction": 0,
+            "confidence": 0.34145456552505493,
+            "true_value": 1,
+            "is_correct": false
+        },
+        {
+            "file_number": 45,
+            "file_name": "1.2.643.5.1.13.13.12.2.77.8252.07100100141409110802061500150005.jpg",
+            "prediction": 0,
+            "confidence": 0.017412085086107254,
+            "true_value": 0,
+            "is_correct": true
+        },
+        {
+            "file_number": 46,
+            "file_name": "1.2.643.5.1.13.13.12.2.77.8252.07121007120712001201051300150810.jpg",
+            "prediction": 0,
+            "confidence": 0.3458532392978668,
+            "true_value": 0,
+            "is_correct": true
+        },
+        {
+            "file_number": 47,
+            "file_name": "1.2.643.5.1.13.13.12.2.77.8252.07121214130800030100020204061300.jpg",
+            "prediction": 0,
+            "confidence": 0.008095202036201954,
+            "true_value": 0,
+            "is_correct": true
+        },
+        {
+            "file_number": 48,
             "file_name": "1.2.643.5.1.13.13.12.2.77.8252.08011406071500091010110606021005.jpg",
             "prediction": 1,
             "confidence": 0.8547515869140625,
             "true_value": 1,
-            "is_correct": "верно"
+            "is_correct": true
         },
         {
-            "file_number": 12,
+            "file_number": 49,
             "file_name": "1.2.643.5.1.13.13.12.2.77.8252.08030111050106040709020502040906.jpg",
             "prediction": 0,
             "confidence": 0.168603777885437,
             "true_value": 0,
-            "is_correct": "верно"
+            "is_correct": true
         },
         {
-            "file_number": 13,
+            "file_number": 50,
+            "file_name": "1.2.643.5.1.13.13.12.2.77.8252.08130207050500011503090111131207.jpg",
+            "prediction": 0,
+            "confidence": 0.2431742548942566,
+            "true_value": 1,
+            "is_correct": false
+        },
+        {
+            "file_number": 51,
+            "file_name": "1.2.643.5.1.13.13.12.2.77.8252.08130711130413150015080901000904.jpg",
+            "prediction": 0,
+            "confidence": 0.02797328680753708,
+            "true_value": 0,
+            "is_correct": true
+        },
+        {
+            "file_number": 52,
+            "file_name": "1.2.643.5.1.13.13.12.2.77.8252.08141511031402151415140802050115.jpg",
+            "prediction": 0,
+            "confidence": 0.15592236816883087,
+            "true_value": 0,
+            "is_correct": true
+        },
+        {
+            "file_number": 53,
             "file_name": "1.2.643.5.1.13.13.12.2.77.8252.09011308071007080705151505140802.jpg",
             "prediction": 0,
             "confidence": 0.1391133964061737,
             "true_value": 0,
-            "is_correct": "верно"
+            "is_correct": true
         },
         {
-            "file_number": 14,
+            "file_number": 54,
+            "file_name": "1.2.643.5.1.13.13.12.2.77.8252.09110615151400011310030511110812.jpg",
+            "prediction": 1,
+            "confidence": 0.9098283648490906,
+            "true_value": 1,
+            "is_correct": true
+        },
+        {
+            "file_number": 55,
             "file_name": "1.2.643.5.1.13.13.12.2.77.8252.09120901150502071201111510040903.jpg",
             "prediction": 1,
             "confidence": 0.9821041822433472,
             "true_value": 1,
-            "is_correct": "верно"
+            "is_correct": true
         },
         {
-            "file_number": 15,
+            "file_number": 56,
+            "file_name": "1.2.643.5.1.13.13.12.2.77.8252.09130412021107020803011202130711.jpg",
+            "prediction": 0,
+            "confidence": 0.07776028662919998,
+            "true_value": 0,
+            "is_correct": true
+        },
+        {
+            "file_number": 57,
+            "file_name": "1.2.643.5.1.13.13.12.2.77.8252.09130703140711110409140905080312.jpg",
+            "prediction": 0,
+            "confidence": 0.16712842881679535,
+            "true_value": 0,
+            "is_correct": true
+        },
+        {
+            "file_number": 58,
+            "file_name": "1.2.643.5.1.13.13.12.2.77.8252.10000805140203051104040907061512.jpg",
+            "prediction": 1,
+            "confidence": 0.9695150256156921,
+            "true_value": 1,
+            "is_correct": true
+        },
+        {
+            "file_number": 59,
+            "file_name": "1.2.643.5.1.13.13.12.2.77.8252.10040602021101090710051301001411.jpg",
+            "prediction": 0,
+            "confidence": 0.04342741519212723,
+            "true_value": 0,
+            "is_correct": true
+        },
+        {
+            "file_number": 60,
+            "file_name": "1.2.643.5.1.13.13.12.2.77.8252.10050012071205051400131312130912.jpg",
+            "prediction": 0,
+            "confidence": 0.11182203888893127,
+            "true_value": 0,
+            "is_correct": true
+        },
+        {
+            "file_number": 61,
             "file_name": "1.2.643.5.1.13.13.12.2.77.8252.10080814001415130814030513100705.jpg",
             "prediction": 0,
             "confidence": 0.08148033916950226,
             "true_value": 0,
-            "is_correct": "верно"
+            "is_correct": true
         },
         {
-            "file_number": 16,
+            "file_number": 62,
+            "file_name": "1.2.643.5.1.13.13.12.2.77.8252.10081002070115130312150503100901.jpg",
+            "prediction": 0,
+            "confidence": 0.06897011399269104,
+            "true_value": 0,
+            "is_correct": true
+        },
+        {
+            "file_number": 63,
+            "file_name": "1.2.643.5.1.13.13.12.2.77.8252.10090510021003000715091314110409.jpg",
+            "prediction": 1,
+            "confidence": 0.5340863466262817,
+            "true_value": 0,
+            "is_correct": false
+        },
+        {
+            "file_number": 64,
+            "file_name": "1.2.643.5.1.13.13.12.2.77.8252.10091515080705011511071000131114.jpg",
+            "prediction": 1,
+            "confidence": 0.9859633445739746,
+            "true_value": 1,
+            "is_correct": true
+        },
+        {
+            "file_number": 65,
             "file_name": "1.2.643.5.1.13.13.12.2.77.8252.11020312140214061412020109080009.jpg",
             "prediction": 0,
             "confidence": 0.12589429318904877,
             "true_value": 0,
-            "is_correct": "верно"
+            "is_correct": true
         },
         {
-            "file_number": 17,
+            "file_number": 66,
+            "file_name": "1.2.643.5.1.13.13.12.2.77.8252.11020811040608030614150115000907.jpg",
+            "prediction": 1,
+            "confidence": 0.9802440404891968,
+            "true_value": 1,
+            "is_correct": true
+        },
+        {
+            "file_number": 67,
+            "file_name": "1.2.643.5.1.13.13.12.2.77.8252.11041308010614030212091504121008.jpg",
+            "prediction": 0,
+            "confidence": 0.07711025327444077,
+            "true_value": 0,
+            "is_correct": true
+        },
+        {
+            "file_number": 68,
+            "file_name": "1.2.643.5.1.13.13.12.2.77.8252.11051501110514150810080905120513.jpg",
+            "prediction": 0,
+            "confidence": 0.021837525069713593,
+            "true_value": 0,
+            "is_correct": true
+        },
+        {
+            "file_number": 69,
             "file_name": "1.2.643.5.1.13.13.12.2.77.8252.11090005120206080211000211070903.jpg",
             "prediction": 0,
             "confidence": 0.04899052903056145,
             "true_value": 0,
-            "is_correct": "верно"
+            "is_correct": true
         },
         {
-            "file_number": 18,
+            "file_number": 70,
+            "file_name": "1.2.643.5.1.13.13.12.2.77.8252.11090703110014031200020100061303.jpg",
+            "prediction": 1,
+            "confidence": 0.9696794748306274,
+            "true_value": 1,
+            "is_correct": true
+        },
+        {
+            "file_number": 71,
+            "file_name": "1.2.643.5.1.13.13.12.2.77.8252.12050801091007140811040906080913.jpg",
+            "prediction": 0,
+            "confidence": 0.024138443171977997,
+            "true_value": 0,
+            "is_correct": true
+        },
+        {
+            "file_number": 72,
+            "file_name": "1.2.643.5.1.13.13.12.2.77.8252.12061112130109040502020700090209.jpg",
+            "prediction": 0,
+            "confidence": 0.11287184059619904,
+            "true_value": 1,
+            "is_correct": false
+        },
+        {
+            "file_number": 73,
             "file_name": "1.2.643.5.1.13.13.12.2.77.8252.12070311141113100514021309151507.jpg",
             "prediction": 1,
             "confidence": 0.9600352048873901,
             "true_value": 1,
-            "is_correct": "верно"
+            "is_correct": true
         },
         {
-            "file_number": 19,
+            "file_number": 74,
+            "file_name": "1.2.643.5.1.13.13.12.2.77.8252.12090709151310060410090105130002.jpg",
+            "prediction": 1,
+            "confidence": 0.9745499491691589,
+            "true_value": 1,
+            "is_correct": true
+        },
+        {
+            "file_number": 75,
+            "file_name": "1.2.643.5.1.13.13.12.2.77.8252.12100912010313090815131500130113.jpg",
+            "prediction": 0,
+            "confidence": 0.077247753739357,
+            "true_value": 0,
+            "is_correct": true
+        },
+        {
+            "file_number": 76,
+            "file_name": "1.2.643.5.1.13.13.12.2.77.8252.12110712030612091304100603081215.jpg",
+            "prediction": 1,
+            "confidence": 0.8525508642196655,
+            "true_value": 1,
+            "is_correct": true
+        },
+        {
+            "file_number": 77,
+            "file_name": "1.2.643.5.1.13.13.12.2.77.8252.12140815060108040205140314081412.jpg",
+            "prediction": 0,
+            "confidence": 0.1536589413881302,
+            "true_value": 0,
+            "is_correct": true
+        },
+        {
+            "file_number": 78,
+            "file_name": "1.2.643.5.1.13.13.12.2.77.8252.13020309151405151501010512080602.jpg",
+            "prediction": 0,
+            "confidence": 0.25776755809783936,
+            "true_value": 0,
+            "is_correct": true
+        },
+        {
+            "file_number": 79,
+            "file_name": "1.2.643.5.1.13.13.12.2.77.8252.13030908050310150503050304070613.jpg",
+            "prediction": 0,
+            "confidence": 0.13521838188171387,
+            "true_value": 0,
+            "is_correct": true
+        },
+        {
+            "file_number": 80,
+            "file_name": "1.2.643.5.1.13.13.12.2.77.8252.13051114030407001004000104071100.jpg",
+            "prediction": 1,
+            "confidence": 0.9898091554641724,
+            "true_value": 1,
+            "is_correct": true
+        },
+        {
+            "file_number": 81,
+            "file_name": "1.2.643.5.1.13.13.12.2.77.8252.13060509141101081313100210111105.jpg",
+            "prediction": 1,
+            "confidence": 0.8402774333953857,
+            "true_value": 1,
+            "is_correct": true
+        },
+        {
+            "file_number": 82,
             "file_name": "1.2.643.5.1.13.13.12.2.77.8252.13090514111007120014130607140413.jpg",
             "prediction": 0,
             "confidence": 0.18070894479751587,
             "true_value": 0,
-            "is_correct": "верно"
+            "is_correct": true
         },
         {
-            "file_number": 20,
+            "file_number": 83,
+            "file_name": "1.2.643.5.1.13.13.12.2.77.8252.13101310011406100715090805000414.jpg",
+            "prediction": 1,
+            "confidence": 0.5190626382827759,
+            "true_value": 1,
+            "is_correct": true
+        },
+        {
+            "file_number": 84,
+            "file_name": "1.2.643.5.1.13.13.12.2.77.8252.14020201111301001409001511020009.jpg",
+            "prediction": 0,
+            "confidence": 0.08301421999931335,
+            "true_value": 0,
+            "is_correct": true
+        },
+        {
+            "file_number": 85,
+            "file_name": "1.2.643.5.1.13.13.12.2.77.8252.14050807141410130615010905130700.jpg",
+            "prediction": 1,
+            "confidence": 0.9844486713409424,
+            "true_value": 0,
+            "is_correct": false
+        },
+        {
+            "file_number": 86,
+            "file_name": "1.2.643.5.1.13.13.12.2.77.8252.14071303130112091109150102010911.jpg",
+            "prediction": 1,
+            "confidence": 0.9005581140518188,
+            "true_value": 1,
+            "is_correct": true
+        },
+        {
+            "file_number": 87,
             "file_name": "1.2.643.5.1.13.13.12.2.77.8252.14110605110808121212000208021114.jpg",
             "prediction": 0,
             "confidence": 0.014154115691781044,
             "true_value": 0,
-            "is_correct": "верно"
+            "is_correct": true
         },
         {
-            "file_number": 21,
+            "file_number": 88,
             "file_name": "1.2.643.5.1.13.13.12.2.77.8252.14121115040002150002020114010307.jpg",
             "prediction": 1,
             "confidence": 0.983961820602417,
             "true_value": 1,
-            "is_correct": "верно"
+            "is_correct": true
         },
         {
-            "file_number": 22,
+            "file_number": 89,
+            "file_name": "1.2.643.5.1.13.13.12.2.77.8252.14130505080100040414050100051502.jpg",
+            "prediction": 0,
+            "confidence": 0.07173582166433334,
+            "true_value": 0,
+            "is_correct": true
+        },
+        {
+            "file_number": 90,
+            "file_name": "1.2.643.5.1.13.13.12.2.77.8252.14151101120009040502060414101201.jpg",
+            "prediction": 0,
+            "confidence": 0.1356997787952423,
+            "true_value": 0,
+            "is_correct": true
+        },
+        {
+            "file_number": 91,
+            "file_name": "1.2.643.5.1.13.13.12.2.77.8252.15021203061501151206031013080000.jpg",
+            "prediction": 1,
+            "confidence": 0.6426404118537903,
+            "true_value": 0,
+            "is_correct": false
+        },
+        {
+            "file_number": 92,
+            "file_name": "1.2.643.5.1.13.13.12.2.77.8252.15040901110612030809110205000601.jpg",
+            "prediction": 1,
+            "confidence": 0.8736353516578674,
+            "true_value": 1,
+            "is_correct": true
+        },
+        {
+            "file_number": 93,
+            "file_name": "1.2.643.5.1.13.13.12.2.77.8252.15081402081511120202000005151407.jpg",
+            "prediction": 1,
+            "confidence": 0.9969323873519897,
+            "true_value": 1,
+            "is_correct": true
+        },
+        {
+            "file_number": 94,
+            "file_name": "1.2.643.5.1.13.13.12.2.77.8252.15091005101314130215010612051209.jpg",
+            "prediction": 1,
+            "confidence": 0.8236302137374878,
+            "true_value": 1,
+            "is_correct": true
+        },
+        {
+            "file_number": 95,
+            "file_name": "1.2.643.5.1.13.13.12.2.77.8252.15110106121513040206130413050612.jpg",
+            "prediction": 0,
+            "confidence": 0.03744931519031525,
+            "true_value": 0,
+            "is_correct": true
+        },
+        {
+            "file_number": 96,
+            "file_name": "1.2.643.5.1.13.13.12.2.77.8252.15110110130214071311021001060508.jpg",
+            "prediction": 0,
+            "confidence": 0.23826245963573456,
+            "true_value": 0,
+            "is_correct": true
+        },
+        {
+            "file_number": 97,
+            "file_name": "1.2.643.5.1.13.13.12.2.77.8252.15110602081011061504040213100701.jpg",
+            "prediction": 1,
+            "confidence": 0.9961538314819336,
+            "true_value": 1,
+            "is_correct": true
+        },
+        {
+            "file_number": 98,
+            "file_name": "1.2.643.5.1.13.13.12.2.77.8252.15121409100200030012131413031412.jpg",
+            "prediction": 0,
+            "confidence": 0.012854832224547863,
+            "true_value": 0,
+            "is_correct": true
+        },
+        {
+            "file_number": 99,
             "file_name": "1.2.643.5.1.13.13.12.2.77.8252.15130101010910121410021112040706.jpg",
             "prediction": 0,
             "confidence": 0.37131351232528687,
             "true_value": 1,
-            "is_correct": "неверно"
+            "is_correct": false
+        },
+        {
+            "file_number": 100,
+            "file_name": "1.2.643.5.1.13.13.12.2.77.8252.15140702021304040702080402130303.jpg",
+            "prediction": 1,
+            "confidence": 0.9181795716285706,
+            "true_value": 1,
+            "is_correct": true
         }
     ]
 }
