@@ -13,9 +13,12 @@ from tqdm import tqdm
 import time
 from sklearn.metrics import roc_auc_score
 
+from telegram_bot import send_notification, run_bot
+import threading
+
 # Гиперпараметры
 BATCH_SIZE = 16
-NUM_EPOCHS = 15
+NUM_EPOCHS = 30
 LEARNING_RATE = 0.0001
 DEVICE = torch.device("cuda" if torch.cuda.is_available() else "cpu")
 CHECKPOINT_DIR = '../checkpoints'    
@@ -140,7 +143,12 @@ def calculate_metrics(outputs, labels):
 
 def main(dataset_name='clav_fracture'):
     print_and_log("Начало выполнения скрипта")
+    
+    # Запускаем бота в отдельном потоке
+    bot_thread = threading.Thread(target=run_bot, daemon=True)
+    bot_thread.start()
 
+    send_notification(f"Модель ResNet начинает учиться на датасете {dataset_name}")
     
     if dataset_name not in DATASETS:
         raise ValueError(f"Набор данных {dataset_name} не найден. Доступные: {list(DATASETS.keys())}")
@@ -205,7 +213,8 @@ def main(dataset_name='clav_fracture'):
             }, checkpoint_path)
             
             print_and_log(f"Сохранена новая лучшая модель! Точность: {best_val_acc:.4f}")
-
+            
+    send_notification(f"Модель ResNet закончила учиться на датасете {dataset_name}")
     print_and_log("\nОбучение завершено!")
     print_and_log(f"Лучшая точность на валидации: {best_val_acc:.4f} (Эпоха {best_epoch})")
 
